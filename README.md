@@ -2,6 +2,10 @@
 
 Essa ponderada apresenta a implementação dos componentes de uma **CPU de 8 bits funcional**, com foco na sua **Unidade Lógica e Aritmética (ULA)**.
 
+## Demonstração Prática
+
+https://youtu.be/mwKPHa01x3Y
+ 
 ## 🧱 1. Blocos Fundamentais da Aritmética
 
 A base para qualquer operação aritmética em uma CPU começa com a capacidade de somar bits. A partir de componentes simples, construímos progressivamente circuitos mais complexos capazes de realizar cálculos com palavras de 8 bits.
@@ -143,10 +147,6 @@ Neste nível, a Unidade de Controle envia seus sinais para governar o PC, a Mem�
 <img width="1996" height="1556" alt="newCPU" src="https://github.com/user-attachments/assets/dc0bcc10-bbd9-476b-8775-69b0a2573252" />
 
 
-# Demonstração Prática
-
-https://youtu.be/mwKPHa01x3Y
- 
 ## ⚙️ Como Executar o Projeto
 
 1.  **Pré-requisito:** Baixe e instale um emulador de hardware como **Digital** ou **Logisim-Evolution**.
