@@ -142,6 +142,11 @@ Neste nível, a Unidade de Controle envia seus sinais para governar o PC, a Mem�
 
 <img width="1996" height="1556" alt="newCPU" src="https://github.com/user-attachments/assets/dc0bcc10-bbd9-476b-8775-69b0a2573252" />
 
+
+# Demonstração Prática
+
+https://youtu.be/mwKPHa01x3Y
+ 
 ## ⚙️ Como Executar o Projeto
 
 1.  **Pré-requisito:** Baixe e instale um emulador de hardware como **Digital** ou **Logisim-Evolution**.
