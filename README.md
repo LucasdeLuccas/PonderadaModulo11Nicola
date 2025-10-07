@@ -19,7 +19,7 @@ O **Half Adder** é o circuito mais elementar para a soma binária. Ele recebe d
 Para construir somadores maiores, precisamos de um componente que lide com um bit de transporte vindo de uma soma anterior. O **Full Adder** é construído a partir de dois Half Adders e uma porta OR, somando três bits (A, B e um Carry-In) para produzir uma Soma e um Carry-Out[1, 2, 3, 4, 5].
 
 ### 8-bit Adder (Somador de 8 bits)
-<img width="2556" height="1596" alt="8bit_adder" src="https://github.com/user-attachments/assets/103c8d69-36f3-4a10-8543-8f73ed915bc8" />
+<img width="2996" height="1596" alt="8bit_adder" src="https://github.com/user-attachments/assets/3c38f810-555b-4aa6-9f8c-f53f71ff2ded" />
 
 
 [start]Com o Full Adder como bloco de construção, criamos um somador de 8 bits conectando oito deles em cascata[ 57, 58]. O Carry-Out de um estágio alimenta o Carry-In do próximo[52, 53, 54, 55, 56]. Este circuito é a base para a operação de soma na nossa ULA.
@@ -55,6 +55,9 @@ Além do resultado, a ULA gera a **`Flag Zero (Z)`**[141]. Esta saída se torna 
 A operação de subtração (`A - B`) é implementada usando a técnica do **complemento de dois**, reutilizando o somador de 8 bits. O operando `B` é invertido (NOT) e o `Carry-In` inicial do somador é definido como `1`, resultando em `A + (~B) + 1`[: 358, 359, 360, 361, 362].
 
 ### Multiplicador e Divisor (Operandos de 5 bits)
+  * **5 bit Adder**
+  <img width="1668" height="1416" alt="adder_5bit" src="https://github.com/user-attachments/assets/9f057c19-c766-4448-98aa-1c6d9d14bb08" />
+
   
   * **Multiplicador:** Utiliza uma matriz de portas AND para gerar produtos parciais e, em seguida, uma rede de somadores para combiná-los, gerando o resultado final de 8 bits[: 166, 167, 168, 169].
   * <img width="3216" height="1576" alt="multiplier" src="https://github.com/user-attachments/assets/926129f4-debc-48b9-8c92-14db8bd5e0d7" />
